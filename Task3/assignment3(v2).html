@@ -1,0 +1,254 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <div  class="main">
+            <div class="white">
+                 <h3 style=" color: rgb(85, 84, 84); margin-left: -10px;">Registration Form</h3>
+                 <form>
+                    <label class="fname" for="fname" >First Name</label>
+                    <input  type="text" id="fname" name="fname">
+                    <label class="lname" for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname">
+                   <label class="birthday" for="birthday">Birthday</label>
+                    <input type="text" id="birthday" name="birthday">
+                    <label class="email" for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                     <label class="phone" for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone">
+                    <label class="gender" for="gender">Gender</label>
+                    <input type="radio" id="male" name="male">
+                    <label class="male" for="male">Male</label>
+                    <input type="radio" id="female" name="female">
+                    <label class="female" for="female">Female</label>
+
+                    <label class="subject" for="subject">Subject</label>
+                    <div>
+                        <div class="selecter">
+                            <select class="items">
+                                <option>Computer Architecture</option>
+                                <option>Networking</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button class="submit" >Submit</button>
+                 </form>
+            </div>
+        </div>
+
+        <style>
+            .fname{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 20px;
+                margin-left: -10px;
+            }
+            #fname{
+                width: 270;
+                height: 40px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 210px ;
+                margin-left: -10px ;
+            }
+            .lname{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 20px;
+                margin-left: 400px;
+            }
+            #lname{
+                width: 270;
+                height: 40px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 210px ;
+                margin-left: 400px ;
+            }
+            .birthday{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 100px;
+                margin-left: -10px;
+            }
+            #birthday{
+                width: 270;
+                height: 40px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 290px ;
+                margin-left: -10px ;
+            }
+            .email{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 180px;
+                margin-left: -10px;
+            }
+            #email{
+                width: 270;
+                height: 40px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 370px ;
+                margin-left: -10px ;
+            }
+            .phone{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 180px;
+                margin-left: 400px;
+            }
+            #phone{
+                width: 270;
+                height: 40px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 370px ;
+                margin-left: 400px ;
+            }
+            .gender{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 100px;
+                margin-left: 400px;
+            }
+            #male{
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 290px ;
+                margin-left: 400 ;
+                accent-color: green;
+
+            }
+            .male{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 127px;
+                margin-left: 430px;
+            }
+            #female{
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 290px ;
+                margin-left: 570 ;
+                accent-color: green;
+
+            }
+            .female{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 127px;
+                margin-left: 600px;
+            }
+            .subject{
+                color: rgb(134, 133, 133);
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 320px;
+                margin-left: -10px;
+            }
+            .selecter{
+                width: 670;
+                height: 40px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 515px ;
+                margin-left: 0px ;
+            }
+            .items{
+                width: 680;
+                height: 40px;
+                position: absolute;
+                border-color: white;
+                background-color: white;
+                border-width: 1.5px;
+                border-radius: 5px;
+                top: 0px ;
+                margin-left: -10px ;
+            }
+            .submit{
+                width: 150px;
+                height: 40px;
+                background-color: #4097cb;
+                border-radius: 5px;
+                border-color: #4097cb;
+                color: white;
+                font-size: 20px;
+                margin-left: -10px;
+                margin-top: 430px;
+
+            }
+            
+
+            .main{
+                margin-top: -50px;
+                margin-left: -10px;
+                width: 950px;
+                height: 1100px;
+                padding-top: 100px;
+                background-color: purple;
+            }
+            .white{
+                font-family: Arial, Helvetica, sans-serif;
+                width: 800px;
+                height:1000px ;
+                border-radius: 10px;
+                margin-left: 50px;
+                padding-top: 50px;
+                padding-left: 50px;
+                background-color: f0f0f0;
+            }
+            h2{
+                font-family: Arial, Helvetica, sans-serif; 
+            }
+        </style>
+    </body>
+</html>
