@@ -1,0 +1,190 @@
+<!DOCTYPE>
+<html>
+    <head> 
+        <title>Assignment 3 facebook</title>
+    </head>
+    <body>
+        <div class="grid1">
+            <div class="grid2">
+                <h3 style="font-family: Arial, Helvetica, sans-serif; color: #4097cb; padding-top: 20px; margin-left: 20px;">Sign in</h3>
+                <h3 style="font-family: Arial, Helvetica, sans-serif; color: #4097cb; margin-top: -40px; margin-left: 760px;">x</h3>
+                <div class="line"></div>
+                <div class="line2"></div>
+                <p style="font-size: 0px;">🟡</p>
+                <div>
+                    <input type="text" id="login" name="login" placeholder=" Put your login here" style="border-color: #f0f0f0; width: 360px; height: 40px; border-radius: 6px; margin-top: -230px; margin-left: 20px; font-size: 18px;">
+                </div>
+                <div>
+                    <input type="text" id="caps" name="caps"  style="border-color: #f0f0f0; color: #6e6e6e; font-size: 5px; width: 360px; height: 40px; border-radius: 6px; margin-top: -170px; border-color: #1980ad; #1980ad; margin-left: 20px; font-size: 12px; text-align: right;">
+
+                </div>
+                <div>
+                    <h5 style=" color: #6e6e6e; margin-left: 20px; margin-top: -120px; font-family: Arial, Helvetica, sans-serif;">Forget Password?</h5>
+                    <a href="#click"  style=" position: absolute; text-decoration: none; color: #1980ad; margin-top: -40px; margin-left: 140px;">Click here to restore</a>
+                    <button class="button1">Login</button>
+                </div>
+                <div>
+                    <h4 style="color: #6e6e6e; font-style: italic; margin-top: -190px; margin-left: 420px;">You can login with your social account</h4>
+                </div>
+                <div>
+                    <button class="button2"><img src="fb.jpeg">   Facebook</button>
+                    <button class="button4"><img src="t.jpeg">  Twitter</button>
+                    <button class="button3"><img src="g.jpeg">  Google</button>
+                </div>
+                <div>
+                    <h4 style=" color: #6e6e6e; font-style: italic; margin-top: 10px; margin-left: 420px;">Or use your OpenID to login</h4>
+                </div>
+                <div>
+                    <input type="text" id="login" name="login" placeholder=" Your OpenID" style="border-color: #f0f0f0; width: 360px; height: 35px; border-radius: 6px; margin-top: -10px; margin-left: 420px; font-size: 14px;">
+                    <button class="button5">Go</button>
+                </div>
+                <div>
+                    <h4 style="color: #6e6e6e; font-style: italic; margin-top: 10px; margin-left: 420px;">You may need to disable any popup blockers<br>to login with above sites.</h4>
+                </div>
+                <div class="line3"></div>
+                <div class="checkbox"> 
+                    <label for="password" class="password"> Show password</label >
+                    <input type="checkbox" id="showpass" name="showpass" style="accent-color:#1980ad ; float: right;">
+                    <label for="remember" class="remember" style="position: absolute; margin-top: 30px; margin-left: -100px;"> Remember me</label>
+                    <input type="checkbox" id="rememberme" name="rememberme" style="accent-color:#1980ad ; position: absolute; margin-top: 32px; margin-left: 32px; float: right;" >
+                </div>
+                <div class="last">
+                    <h5 style=" color: #6e6e6e; margin-left: 20px; margin-top: -120px; font-family: Arial, Helvetica, sans-serif;">Don't registered?</h5>
+                    <a href="#click"  style=" position: absolute; text-decoration: none; color: #1980ad; margin-top: -40px; margin-left: 140px;">Register Now!</a>
+                </div>
+                
+            </div>
+        </div>
+      
+        <script>
+ 
+          var input = document.getElementById("caps");
+            input.addEventListener("keyup", function(event) {
+
+                if (event.getModifierState("CapsLock")) {
+                    input.value="Caps on!🟡"
+                  } else {
+                  input.value=""
+                  }
+                });
+                </script>
+
+
+
+
+        <style>
+            .grid1{
+                position: absolute;
+                margin-top: -20px;
+                margin-left: -20px;
+                height: 660px;
+                width: 1370px;
+                background-color: #0a3455;
+                background-image: radial-gradient(#0a3455 0%, #1980ad 5%, #0a3455 80%);
+            }
+            .grid2{
+                height: 370px;
+                width: 800px;
+                background-color: #f0f0f0;
+                border-radius:7px;
+                margin-top: 150px;
+                margin-left: 300px;
+            }
+            .line{
+                width: 755px;
+                height: 2px;
+                background-color: #e6e6e6;
+                margin-top: 5px;
+                margin-left: 20px;
+            }
+            .line2{
+                width: 2px;
+                height: 230px;
+                background-color: #e6e6e6;
+                margin-top: 20px;
+                margin-left: 400px;
+            }
+            .button1{
+                width: 150px;
+                height: 45px;
+                background-color: #4097cb;
+                border-radius: 5px;
+                border-color: #4097cb;
+                color: white;
+                font-size: 20px;
+                margin-left: 20px;
+
+            }
+            .button2{
+                width: 100px;
+                height: 35px;
+                background-color: #f0f0f0;
+                border-color: #f0f0f0;
+                border-radius: 5px;
+                color: #6e6e6e;
+                font-size: 15px;
+                margin-left: 420px;
+                margin-top: -10px;
+                border-color: #aaa8a8;
+            }
+            .button3{
+                width: 100px;
+                height: 35px;
+                background-color: #f0f0f0;
+                border-color: #f0f0f0;
+                border-radius: 5px;
+                color: #6e6e6e;
+                font-size: 15px;
+                margin-left: 680px;
+                margin-top: -35px;
+                border-color: #4097cb;
+            }
+            .button4{
+                position: absolute;
+                width: 100px;
+                height: 35px;
+                background-color: #f0f0f0;
+                border-color: #f0f0f0;
+                border-radius: 5px;
+                color: #6e6e6e;
+                font-size: 15px;
+                margin-left: 31px;
+                margin-top: -10px;
+                border-color: #aaa8a8;
+            }
+            .button5{
+                width: 50px;
+                height: 35px;
+                background-color: #4097cb;
+                border-radius: 5px;
+                border-color: #4097cb;
+                color: white;
+                font-size: 20px;
+                margin-top: -35px;
+                margin-left: 730px;
+            }
+     
+            .line3{
+                position: absolute;
+                width: 755px;
+                height: 2px;
+                background-color: #e6e6e6;
+                margin-top: 30px;
+                margin-left: 20px;
+            }
+            .checkbox{
+                margin-left: 230px;
+                margin-top: -60px;
+                color: #6e6e6e;
+                width:150px;
+            }
+            .last{
+                margin-top: 210px;
+                margin-left: 280px;
+            }
+
+
+   
+        </style>
+    </body>
+</html>
